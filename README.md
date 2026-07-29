@@ -1,5 +1,3 @@
-*This project has been created as part of the 42 curriculum by amostash.*
-
 # Codexion
 
 A multithreaded concurrency simulation written in C that models multiple coders competing for limited shared resources (USB dongles). The project focuses on synchronization, thread safety, deadlock prevention, fairness, and precise timing using POSIX threads.
