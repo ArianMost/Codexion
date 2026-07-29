@@ -6,7 +6,7 @@
 /*   By: amostash <amostash@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/22 14:41:50 by amostash          #+#    #+#             */
-/*   Updated: 2026/07/22 18:53:51 by amostash         ###   ########.fr       */
+/*   Updated: 2026/07/27 16:21:19 by amostash         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,3 @@ void	*monitor_simulation(void *arg)
 	}
 	return (NULL);
 }
-
