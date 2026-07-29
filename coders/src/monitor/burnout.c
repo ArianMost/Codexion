@@ -6,13 +6,13 @@
 /*   By: amostash <amostash@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/22 15:45:20 by amostash          #+#    #+#             */
-/*   Updated: 2026/07/22 16:50:35 by amostash         ###   ########.fr       */
+/*   Updated: 2026/07/27 16:21:06 by amostash         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "codexion.h"
 
-static int	check_burnout(t_sim *simulation, long long current_time)
+int	check_burnout(t_sim *simulation, long long current_time)
 {
 	long long	start_time;
 	int			i;
@@ -35,7 +35,7 @@ static int	check_burnout(t_sim *simulation, long long current_time)
 	return (-1);
 }
 
-static void	handle_burnout(t_sim *simulation, int id)
+void	handle_burnout(t_sim *simulation, int id)
 {
 	set_stopped(simulation, id);
 	notify_all_dongles(simulation);
