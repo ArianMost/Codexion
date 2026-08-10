@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   codexion.h                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: amostash <amostash@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/10 14:25:14 by amostash          #+#    #+#             */
-/*   Updated: 2026/07/29 17:59:16 by amostash         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef CODEXION_H
 # define CODEXION_H
 
@@ -51,6 +39,7 @@ typedef struct s_heap
 	t_heap_node	*requests;
 	int			used_capacity;
 	int			capacity_allocated;
+	int			scheduler;
 }	t_heap;
 
 typedef struct s_dongle
